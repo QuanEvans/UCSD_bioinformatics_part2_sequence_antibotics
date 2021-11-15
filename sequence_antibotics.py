@@ -211,6 +211,7 @@ def is_sublist(sublist, list):
             return False
     return True
 
+#Code Challenge: Implement CyclopeptideSequencing (pseudocode reproduced below).
 def CyclopeptideSequencing(Spectrum):
     mass_table = {57: 'G', 71: 'A', 87: 'S', 97: 'P',
                 99: 'V', 101: 'T', 103: 'C', 113: 'I/L',
